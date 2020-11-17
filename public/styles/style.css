@@ -1,0 +1,44 @@
+table.gameboard { 
+    border-spacing: 3px;
+    border-collapse: separate;
+    border: 5px #999 solid; 
+    margin-left: auto; 
+    margin-right: auto;
+    border-radius: 10px;
+  }
+  .gameboard td { 
+    opacity: 0.9;
+    font-family: arial, sans-serif; 
+    font-size: 1.5em; 
+    font-weight: bold; 
+    text-align: center; 
+    vertical-align: middle; 
+    color: #543; 
+    background: #ffe; 
+    margin: 2px; padding: 6px; 
+    border: 1px #aaa solid; 
+    width: 1em;
+    border-radius: 3px 6px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .list {
+    width: 20%;
+    margin: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.2rem;
+  }
+  .list > ul {
+    list-style: none;
+  }
+  
+  
+  .board {
+    width: 70%;
+    margin: 10px;
+    text-align: center;
+  }
